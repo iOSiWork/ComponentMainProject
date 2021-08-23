@@ -21,6 +21,8 @@
 		843C775426D3724600D99A69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C773F26D36AE700D99A69 /* LaunchScreen.storyboard */; };
 		843C775526D3724600D99A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843C773D26D36AE700D99A69 /* Assets.xcassets */; };
 		843C775626D3724600D99A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843C773A26D36AE600D99A69 /* Main.storyboard */; };
+		843C776626D383E500D99A69 /* Support.app in Resources */ = {isa = PBXBuildFile; fileRef = 843C775A26D3724600D99A69 /* Support.app */; };
+		843C776726D383E500D99A69 /* Support.app in Resources */ = {isa = PBXBuildFile; fileRef = 843C775A26D3724600D99A69 /* Support.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +173,7 @@
 				843C774126D36AE700D99A69 /* LaunchScreen.storyboard in Resources */,
 				843C773E26D36AE700D99A69 /* Assets.xcassets in Resources */,
 				843C773C26D36AE600D99A69 /* Main.storyboard in Resources */,
+				843C776626D383E500D99A69 /* Support.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +184,7 @@
 				843C775426D3724600D99A69 /* LaunchScreen.storyboard in Resources */,
 				843C775526D3724600D99A69 /* Assets.xcassets in Resources */,
 				843C775626D3724600D99A69 /* Main.storyboard in Resources */,
+				843C776726D383E500D99A69 /* Support.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
