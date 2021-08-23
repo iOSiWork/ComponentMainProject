@@ -45,6 +45,7 @@
 		843C772526D36AE600D99A69 = {
 			isa = PBXGroup;
 			children = (
+				843C774B26D36F9800D99A69 /* Support */,
 				843C773026D36AE600D99A69 /* MainProject */,
 				843C772F26D36AE600D99A69 /* Products */,
 			);
@@ -74,6 +75,13 @@
 				843C774326D36AE700D99A69 /* main.m */,
 			);
 			path = MainProject;
+			sourceTree = "<group>";
+		};
+		843C774B26D36F9800D99A69 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
