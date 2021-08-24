@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "WBAppDelegate.h"
+#import "WBViewController.h"
 
 FOUNDATION_EXPORT double podTestLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char podTestLibraryVersionString[];
