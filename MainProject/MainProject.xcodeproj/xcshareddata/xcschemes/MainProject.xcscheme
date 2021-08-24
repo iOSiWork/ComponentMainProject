@@ -44,12 +44,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "843C772D26D36AE600D99A69"
+            BuildableName = "MainProject.app"
+            BlueprintName = "MainProject"
+            ReferencedContainer = "container:MainProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "843C774C26D3724600D99A69"
             BuildableName = "Support.app"
             BlueprintName = "Support"
             ReferencedContainer = "container:MainProject.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
