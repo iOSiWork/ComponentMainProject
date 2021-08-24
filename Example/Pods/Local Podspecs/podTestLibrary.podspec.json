@@ -1,22 +1,32 @@
 {
   "name": "podTestLibrary",
-  "version": "0.1.0",
-  "summary": "A short description of podTestLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/webbwang/podTestLibrary",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.1.2",
+  "summary": "Just Testing.",
+  "description": "Testing Private Podspec.\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/iOSiWork/ComponentMainProject.git",
+  "license": "MIT",
   "authors": {
-    "webbwang": "iosiwork@163.com"
+    "iOSiWork": "iOSiWork@163.com"
   },
   "source": {
-    "git": "https://github.com/webbwang/podTestLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/iOSiWork/ComponentMainProject.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "7.0"
   },
-  "source_files": "podTestLibrary/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "podTestLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }

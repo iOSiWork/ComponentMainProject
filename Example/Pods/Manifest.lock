@@ -1,15 +1,42 @@
 PODS:
-  - podTestLibrary (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - podTestLibrary (0.1.2):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - podTestLibrary (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   podTestLibrary:
     :path: "../"
 
 SPEC CHECKSUMS:
-  podTestLibrary: f4070033d9a0292b30f6c94829eea331502e3c18
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  podTestLibrary: 8a685cb4f254b2653c20781b9df86724e24df942
 
 PODFILE CHECKSUM: b5d32486047d926510feadf4f1a5366b23b9411c
 

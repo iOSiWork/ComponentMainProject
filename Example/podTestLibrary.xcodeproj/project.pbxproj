@@ -208,6 +208,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				5F164D545927FB4CEB227171 /* [CP] Embed Pods Frameworks */,
+				74B62CE04BF61780C7C1D87B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +296,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5F164D545927FB4CEB227171 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B62CE04BF61780C7C1D87B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/podTestLibrary/podTestLibrary.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/podTestLibrary.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-podTestLibrary_Example/Pods-podTestLibrary_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		94D402F66B506B20A9CE1C07 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
