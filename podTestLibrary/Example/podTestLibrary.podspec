@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "podTestLibrary"    #名称
-  s.version          = "0.1.0"             #版本号
+  s.version          = "0.1.1"             #版本号
   s.summary          = "Just Testing."     #简短介绍，下面是详细介绍
   s.description      = <<-DESC
                        Testing Private Podspec.
